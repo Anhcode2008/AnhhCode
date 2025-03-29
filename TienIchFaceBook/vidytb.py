@@ -129,5 +129,5 @@ def download_video(url, NamVN):
 video_url = input(f"{trang}\033[1;97m[\033[1;91m❣\033[1;97m] \033[1;36m✈  \033[1;32mNhập link video youtube cần tải:{vang}")
 loading_bar()
 NamTool = "video_yt_download_by_atom"
-print("Tool by Hướng Dev")
+print("Tool by Anhcode")
 download_video(video_url, NamTool)
