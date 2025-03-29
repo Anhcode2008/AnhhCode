@@ -85,7 +85,7 @@ def download_tiktok_video(video_url):
     video_id = extract_video_id(video_url)
 
     # Tạo đường dẫn thư mục lưu trữ
-    download_dir = "video_tiktok_download_by_hoàng_nam"
+    download_dir = "video_tiktok_download_by_anhcode"
     if not os.path.exists(download_dir):
         os.makedirs(download_dir)
 
