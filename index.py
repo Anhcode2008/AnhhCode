@@ -191,22 +191,22 @@ while True:
 		# Buff view
 	elif chon == '4.1':
 		# Thanh Công
-		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/refs/heads/main/buff/bufffl.py').text)
+		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/blob/main/buff/bufffl.py').text)
 	elif chon == '4.2':
 		# Thanh Công
-		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/refs/heads/main/buff/buffmemfb.py').text)
+		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/blob/main/buff/buffmemfb.py').text)
 	elif chon == '4.3':
 		# Thanh Công
-		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/refs/heads/main/buff/buffmemtele.py').text)
+		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/blob/main/buff/buffmemtele.py').text)
 	elif chon == '4.4':
 		# Thanh Công
-		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/refs/heads/main/buff/buffreactstr.py.py').text)
+		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/blob/main/buff/buffreactstr.py.py').text)
 	elif chon == '4.5':
 		# Thanh Công
-		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/refs/heads//main/buff/buffview.py').text)
+		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/blob/main/buff/buffview.py').text)
 	elif chon == '4.6':
 		# Thanh Công
-		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/refs/heads/main/buff/viewtik.py').text)
+		exec(requests.get('https://github.com/Anhcode2008/AnhhCode/blob/main/buff/viewtik.py').text)
 	elif chon == '5.1':
 		# Thanh Công
 		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/mailer/genmailv1.py').text)
