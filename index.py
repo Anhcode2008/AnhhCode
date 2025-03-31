@@ -132,6 +132,7 @@ while True:
 	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m8.6 \033[1;97m: \033[1;34mTool Download Video TikTok \033[1;32m[Online]")
 	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m8.7 \033[1;97m: \033[1;34mTool Download Video Youtube \033[1;32m[Online]")
 	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m8.8 \033[1;97m: \033[1;34mTool Đào Mail \033[1;32m[Online]")
+	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m8.85 \033[1;97m: \033[1;34mEnc Code\033[1;32m[Online]")
 	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m8.9 \033[1;97m: \033[1;34mThoát Tool \033[1;32m[Online]")
 	print(f"\033[97m════════════════════════════════════════════════════════")
 	chon = input('\033[1;91m┌─╼\033[1;97m[\033[1;91m<\033[1;97m/\033[1;91m>\033[1;97m]--\033[1;91m>\033[1;97m Nhập lựa chọn \033[1;97m \n\033[1;91m└─╼\033[1;91m✈ \033[1;33m : ')
@@ -271,6 +272,9 @@ while True:
 	elif chon == '8.8':
 		# Thanh Công
 		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/ToolDaoMail.py').text)
+	elif chon == '8.85':
+		# Thanh Công
+		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/buff/enc.py').text)
 	elif chon == '8.9':
 		# Thanh Công
 		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/ThoatTool.py').text)          
