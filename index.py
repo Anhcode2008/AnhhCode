@@ -260,7 +260,7 @@ while True:
 		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/ToolSpamMessage.py').text)
 	elif chon == '8.4':
 		# Thanh Công
-		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/ToolShareAoCookieV1.py').text)
+		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/share.py').text)
 	elif chon == '8.5':
 		# Thanh Công
 		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/urllink.py').text)
