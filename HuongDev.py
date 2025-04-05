@@ -144,7 +144,7 @@ def generate_key_and_url(ip_address):
     ip_numbers = ''.join(filter(str.isdigit, ip_address))
     key = f'anhcode{key1}{ip_numbers}'
     expiration_date = datetime.now().replace(hour=23, minute=59, second=0, microsecond=0)
-    url = f'https://anhcode.click/?key={key}'
+    url = f'https://anhcode.click/key?key={key}'
     return url, key, expiration_date
 
 def da_qua_gio_moi():
